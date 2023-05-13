@@ -11,6 +11,7 @@ public class CandidatoUpdater {
 		candidatoToUpdate.setTelefono(candidato.getTelefono());
 		candidatoToUpdate.setPosizione(candidato.getPosizione());
 		candidatoToUpdate.setValutazione(candidato.getValutazione());
+		candidatoToUpdate.setNote(candidato.getNote());
 		
 		return candidatoToUpdate;
 	}

@@ -18,10 +18,11 @@ public class Candidato {
 	private String telefono;
 	private String posizione;
 	private int valutazione;
+	private String note;
 	
 	public Candidato() {}
 	
-	public Candidato(String nome, String cognome, String email, String telefono, String posizione, int valutazione) {
+	public Candidato(String nome, String cognome, String email, String telefono, String posizione, int valutazione, String note) {
 		super();
 		this.nome = nome;
 		this.cognome = cognome;
@@ -29,6 +30,7 @@ public class Candidato {
 		this.telefono = telefono;
 		this.posizione = posizione;
 		this.valutazione = valutazione;
+		this.note = note;
 	}
 
 	public long getId() {
@@ -86,8 +88,14 @@ public class Candidato {
 	public void setValutazione(int valutazione) {
 		this.valutazione = valutazione;
 	}
-	
-	
+
+	public String getNote() {
+		return note;
+	}
+
+	public void setNote(String note) {
+		this.note = note;
+	}
 	
 	
 }
